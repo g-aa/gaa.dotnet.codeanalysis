@@ -9,7 +9,7 @@
     <PackageId>Gaa.DotNet.CodeAnalysis</PackageId>
     <PackageTags>GAA;Net;CodeAnalysis</PackageTags>
     <PackageType>Dependency</PackageType>
-    <PackageProjectUrl>https://github.com/g-aa/gaa-dotnet-code-analysis</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/g-aa/gaa.dotnet.codeanalysis</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
