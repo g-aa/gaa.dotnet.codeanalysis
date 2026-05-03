@@ -2,8 +2,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <IsPackable>true</IsPackable>
     <Description>Default ruleset for personal projects.</Description>
+    <IsPackable>true</IsPackable>
     <Product>CodeAnalysis</Product>
     <Title>GAA dotnet code analysis</Title>
     <PackageId>Gaa.DotNet.CodeAnalysis</PackageId>
@@ -21,8 +21,9 @@
     <NoBuild>true</NoBuild>
     <DevelopmentDependency>true</DevelopmentDependency>
   </PropertyGroup>
+  <Import Project="../../build/Version.targets" />
   <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis" Version="5.0.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis" Version="5.3.0" />
     <PackageReference Include="StyleCop.Analyzers.Unstable" Version="1.2.0.556" />
   </ItemGroup>
   <ItemGroup>

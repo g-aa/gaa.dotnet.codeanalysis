@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/build/">
+    <File Path="build/.tag.sh" />
+    <File Path="build/Version.targets" />
+  </Folder>
+  <Folder Name="/root/">
+    <File Path=".drone.yml" />
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path=".version" />
+    <File Path="CHANGELOG.md" />
+    <File Path="icon.png" />
+    <File Path="LICENSE.txt" />
+    <File Path="README.md" />
+    <File Path="TODO" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/Gaa.DotNet.CodeAnalysis/Gaa.DotNet.CodeAnalysis.csproj" />
+  </Folder>
+</Solution>
